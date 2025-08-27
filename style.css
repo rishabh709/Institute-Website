@@ -5,6 +5,9 @@
     box-sizing: border-box;
     /* overflow: hidden; */
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100vw;
     background-color: #eee;
@@ -199,12 +202,12 @@ nav{
 
 .footer{
     width: 100%;
-    height: 100px; 
+    padding: 20px;
     background-color: #5C5CFE;
     color: white;
     margin-top: 5vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
